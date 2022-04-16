@@ -1,3 +1,4 @@
+#https://stackoverflow.com/questions/58280015/printing-numbers-in-new-lines  
 def MathOp():
   
   classic_division = 3/2 ## Calculate 3/2 here
