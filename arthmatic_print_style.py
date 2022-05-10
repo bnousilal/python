@@ -9,6 +9,7 @@ def MathOp():
   return [classic_division, floor_division, modulus, power]
 
 [classic_division, floor_division, modulus, power]=MathOp()
+#it unpacks a list (of n elements), and prints out every element. We specify a separator between the elements which in this case is newline or \n
 print(*[classic_division, floor_division, modulus, power], sep="\n")
 print(f"{classic_division}\n{floor_division}\n{modulus}\n{power}")
 print("{0}\n{1}\n{2}\n{3}".format(classic_division, floor_division, modulus, power))
