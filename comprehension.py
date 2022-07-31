@@ -34,3 +34,10 @@ colors=['red', 'green', 'white']
 
 shirts=[(size, color) for size in sizes for color in colors]
 print(shirts)
+
+lst = [20,23,29,45,87,12]
+print([num for num in lst if num in range(20, 30)])
+special = [num for num in lst if 20 <= num <= 30]
+print(special)
+special = (n for n in lst if 20 <= n <= 29)
+print(*special, sep=',')

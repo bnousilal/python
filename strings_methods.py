@@ -1,0 +1,10 @@
+'''
+s.lower()
+s.count()
+s.upper()
+s.startswith()
+s.title()
+s.swapcase()
+s.capitalize()
+s.find()
+'''
